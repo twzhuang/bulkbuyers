@@ -1,0 +1,131 @@
+.gray-text{
+    color: #677279;
+}
+
+.category-page-borders{
+    border-radius: 3px;
+    border-color: #E1E3E4;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.collection-color{
+    color: #223180;
+}
+
+.category-page-background{
+    background-color: #F3F5F6;
+}
+
+.category-page-left-navbar{
+    background-color: white;
+}
+
+.current-category-text-color{
+    color: #08BCDC;
+}
+
+.category-image{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BW_vxQjexiv4zg2ud/videoblocks-studio-shot-of-cute-teenager-girl-wears-headphones-and-sunglasses-before-black-background-listening-rhytmical-music-youth-freedom-concept_rrrcrfg-w_thumbnail-full01.png");
+}
+
+.category-page-borders-second{
+    border-right: 1px solid #E1E3E4;
+    border-top: 1px solid #E1E3E4;
+}
+
+.product-image{
+    width:90%;
+}
+
+.product-title {
+	height: 25%;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.product-button{
+    background-color: #08BCDC;
+    color: white;
+    width: 80%
+}
+
+/*.popover {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    color: #677279;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: opacity 0.25s ease-in-out, visibility 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, visibility 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, visibility 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    will-change: transform;
+}
+	
+.popover[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.001);
+    transform: scale(1.001);
+    transition: opacity 0.4s cubic-bezier(0, 1, 0.4, 1),visibility 0.4s linear,-webkit-transform 0.4s cubic-bezier(0.18, 1.25, 0.4, 1);
+    transition: opacity 0.4s cubic-bezier(0, 1, 0.4, 1),transform 0.4s cubic-bezier(0.18, 1.25, 0.4, 1),visibility 0.4s linear;
+    transition: opacity 0.4s cubic-bezier(0, 1, 0.4, 1),transform 0.4s cubic-bezier(0.18, 1.25, 0.4, 1),visibility 0.4s linear,-webkit-transform 0.4s cubic-bezier(0.18, 1.25, 0.4, 1);
+}
+
+.popover--large {
+    text-align: center;
+}
+
+@media (min-width: 641px) {
+	.popover--large {
+	    min-width: 320px;
+	}
+	
+	.popover {
+	    width: auto;
+	    min-width: 160px;
+	    right: -2px;
+	    top: calc(100% + 15px);
+	    left: auto;
+	    border-radius: 3px;
+	    box-shadow: 0 1px 5px 2px rgba(0,0,0,0.1);
+	}
+	
+	.popover--unlogged {
+	    right: -5px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.popover--unlogged {
+	    right: 0;
+	    -webkit-transform: scale(0.9) translateX(calc(50% - 7px));
+	    transform: scale(0.9) translateX(calc(50% - 7px));
+	}
+	.popover--unlogged[aria-hidden="false"] {
+	    -webkit-transform: scale(1) translateX(calc(50% - 7px));
+	    transform: scale(1) translateX(calc(50% - 7px));
+	}
+	
+	.popover {
+	    top: calc(100% + 4px);
+	}
+}*/
+
+@media only screen and (max-width: 1300px) {
+	.main {
+		min-width: 1175px;
+	}
+}
